@@ -1,0 +1,11 @@
+@font-face{font-family:Mont;font-weight:600;src:url(montserrat-latin-600-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Mont;font-weight:800;src:url(montserrat-latin-800-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Osw;font-weight:700;src:url(oswald-latin-700-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Mont;font-weight:500;src:url(montserrat-latin-500-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Mont;font-weight:700;src:url(montserrat-latin-700-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Osw;font-weight:700;src:url(oswald-cyrillic-700-normal.woff2)}
+@font-face{font-family:Osw;font-weight:600;src:url(oswald-cyrillic-600-normal.woff2)}
+@font-face{font-family:Mont;font-weight:500;src:url(montserrat-cyrillic-500-normal.woff2)}
+@font-face{font-family:Mont;font-weight:600;src:url(montserrat-cyrillic-600-normal.woff2)}
+@font-face{font-family:Mont;font-weight:700;src:url(montserrat-cyrillic-700-normal.woff2)}
+@font-face{font-family:Mont;font-weight:800;src:url(montserrat-cyrillic-800-normal.woff2)}
