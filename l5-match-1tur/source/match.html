@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Mont;font-weight:600;src:url(montserrat-latin-600-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Mont;font-weight:800;src:url(montserrat-latin-800-normal.woff2);unicode-range:U+0000-00FF} @font-face{font-family:Osw;font-weight:700;src:url(oswald-latin-700-normal.woff2);unicode-range:U+0000-00FF} @font-face{font-family:Mont;font-weight:500;src:url(montserrat-latin-500-normal.woff2);unicode-range:U+0000-00FF} @font-face{font-family:Mont;font-weight:700;src:url(montserrat-latin-700-normal.woff2);unicode-range:U+0000-00FF} @font-face{font-family:Osw;font-weight:700;src:url(oswald-cyrillic-700-normal.woff2)} @font-face{font-family:Osw;font-weight:600;src:url(oswald-cyrillic-600-normal.woff2)} @font-face{font-family:Mont;font-weight:500;src:url(montserrat-cyrillic-500-normal.woff2)} @font-face{font-family:Mont;font-weight:600;src:url(montserrat-cyrillic-600-normal.woff2)} @font-face{font-family:Mont;font-weight:700;src:url(montserrat-cyrillic-700-normal.woff2)} @font-face{font-family:Mont;font-weight:800;src:url(montserrat-cyrillic-800-normal.woff2)} 
+:root{--blue:#14506f;--gold:#c99a52;--ink:#2b3a44;--muted:#6b7780}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{background:url(template.png) 0 0/1080px 1350px no-repeat;font-family:Mont;position:relative}
+.c{position:absolute;left:236px;right:56px;top:0;bottom:0}
+.kick{position:absolute;top:92px;font:800 22px Mont;letter-spacing:.42em;color:var(--ink)}
+.kick:after{content:"";display:block;width:56px;height:4px;background:var(--gold);margin-top:18px;border-radius:2px}
+h1{position:absolute;top:148px;font:700 100px/1 Osw;color:var(--blue);white-space:nowrap}
+h1 b{color:var(--gold)}
+.score{position:absolute;top:296px;left:0;right:0;height:300px;background:#fff;border-radius:26px;
+ box-shadow:0 22px 50px rgba(20,60,90,.12),0 3px 10px rgba(20,60,90,.06);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 24px}
+.team{display:flex;flex-direction:column;align-items:center;gap:18px}
+.team img{height:150px}
+.team span{font:700 27px/1.05 Osw;color:var(--blue);text-align:center;letter-spacing:.01em}
+.res{font:700 128px/1 Osw;color:var(--blue);display:flex;align-items:center;gap:22px;padding-bottom:40px}
+.res i{font-style:normal;color:#c5ccd1;font-size:96px;transform:translateY(-6px)}
+.res .w{color:var(--gold)}
+.sec{position:absolute;top:652px;font:800 20px Mont;letter-spacing:.36em;color:var(--ink)}
+.goals{position:absolute;top:700px;left:0;right:0;display:grid;grid-template-columns:1fr auto;row-gap:16px;align-items:center}
+.n{font:600 23px Mont;letter-spacing:.3em;color:var(--ink);white-space:nowrap}
+.n em{font-style:normal;font:800 14px Mont;letter-spacing:.2em;color:#fff;background:var(--gold);border-radius:20px;padding:5px 12px 5px 14px;margin-left:12px;vertical-align:3px}
+.m{display:flex;gap:10px;justify-content:flex-end}
+.m span{background:var(--blue);color:#fff;font:600 20px Mont;border-radius:20px;min-width:76px;text-align:center;padding:5px 14px}
+.m span.p{background:var(--gold)}
+.opp{position:absolute;top:1000px;left:0;right:0;font:500 20px/1.45 Mont;color:var(--muted)}
+.opp b{font-weight:700;letter-spacing:.3em;font-size:15px;color:var(--gold);margin-right:10px}
+.rows{position:absolute;top:1106px;left:0;right:0;display:grid;grid-template-columns:max-content 1fr;column-gap:36px;row-gap:24px}
+.l{font:700 17px Mont;letter-spacing:.32em;color:var(--gold);padding-top:8px}
+.v{font:700 26px/1.15 Mont;color:var(--blue)}
+.v small{display:block;font:500 19px/1.3 Mont;color:var(--muted);margin-top:4px}
+</style></head><body><div class="c">
+<div class="kick">ИТОГ МАТЧА · 1 ТУР</div>
+<h1>СТАРТ С <b>ПОБЕДЫ</b></h1>
+<div class="score">
+ <div class="team"><img src="crest_per.png"><span>ПЕРЕМЫШЛЬСКИЙ<br>Р-Н</span></div>
+ <div class="res"><span>4</span><i>:</i><span class="w">7</span></div>
+ <div class="team"><img src="crest_l5.png"><span>Л5<br>КАЛУГА</span></div>
+</div>
+<div class="sec">ГОЛЫ Л5 КАЛУГА</div>
+<div class="goals">
+ <div class="n">РОДИН ИВАН<em>ХЕТ-ТРИК</em></div><div class="m"><span>2'</span><span>44'</span><span class="p">50' П</span></div>
+ <div class="n">ИГНАХИН АЛЕКСАНДР</div><div class="m"><span>10'</span></div>
+ <div class="n">ДУМБРАВА ВЯЧЕСЛАВ</div><div class="m"><span>20'</span></div>
+ <div class="n">КОНЬКОВ АНДРЕЙ</div><div class="m"><span>27'</span></div>
+ <div class="n">САМОРОДОВ АРТЁМ</div><div class="m"><span>33'</span></div>
+</div>
+<div class="opp"><b>СОПЕРНИК</b>Тихонов 15', Школьный 16', Матросов 35', Рязанцев 48'</div>
+<div class="rows">
+ <div class="l">ТУРНИР</div><div class="v">Отбор ЧКО — ОС 1<small>Пенальти.РФ · 1 тур</small></div>
+ <div class="l">ГДЕ</div><div class="v">ФОК «Воротынск»<small>14 ноября · Воротынск</small></div>
+</div>
+</div></body></html>
