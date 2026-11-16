@@ -1,4 +1,24 @@
 [
-  {"out": "out/luchshie_igroki.png", "photo": "assets/photo2.png", "kicker": "Индивидуальные номинации", "title": "ЛУЧШИЕ", "gold": "ИГРОКИ"},
-  {"out": "out/1_mesto.png", "photo": "assets/photo1.jpg", "kicker": "Итоги летнего сезона", "title": "1", "gold": "МЕСТО"}
+  {
+    "out": "out/luchshie_igroki.png",
+    "photo": "assets/photo2.png",
+    "kicker": "Индивидуальные номинации",
+    "title": "ЛУЧШИЕ",
+    "gold": "ИГРОКИ"
+  },
+  {
+    "out": "out/1_mesto.png",
+    "photo": "assets/photo1.jpg",
+    "kicker": "Итоги летнего сезона",
+    "title": "1",
+    "gold": "МЕСТО"
+  },
+  {
+    "out": "out/start_s_pobedy.png",
+    "photo": "assets/komanda_1tur.png",
+    "kicker": "Зимний сезон · 1 тур · 7:4",
+    "title": "СТАРТ С",
+    "gold": "ПОБЕДЫ",
+    "position": "50% 35%"
+  }
 ]
