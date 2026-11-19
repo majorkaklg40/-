@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Mont;font-weight:600;src:url(montserrat-latin-600-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Mont;font-weight:800;src:url(montserrat-latin-800-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Osw;font-weight:700;src:url(oswald-latin-700-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Mont;font-weight:500;src:url(montserrat-latin-500-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Mont;font-weight:700;src:url(montserrat-latin-700-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:Osw;font-weight:700;src:url(oswald-cyrillic-700-normal.woff2)}
+@font-face{font-family:Osw;font-weight:600;src:url(oswald-cyrillic-600-normal.woff2)}
+@font-face{font-family:Mont;font-weight:500;src:url(montserrat-cyrillic-500-normal.woff2)}
+@font-face{font-family:Mont;font-weight:600;src:url(montserrat-cyrillic-600-normal.woff2)}
+@font-face{font-family:Mont;font-weight:700;src:url(montserrat-cyrillic-700-normal.woff2)}
+@font-face{font-family:Mont;font-weight:800;src:url(montserrat-cyrillic-800-normal.woff2)}
+:root{--blue:#14506f;--gold:#c99a52;--ink:#2b3a44;--muted:#6b7780}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{background:url(template.png) 0 0/1080px 1350px no-repeat;font-family:Mont;position:relative}
+.c{position:absolute;left:236px;right:56px;top:0;bottom:0}
+.kick{position:absolute;top:92px;font:800 22px Mont;letter-spacing:.42em;color:var(--ink)}
+.kick:after{content:"";display:block;width:56px;height:4px;background:var(--gold);margin-top:18px;border-radius:2px}
+h1{position:absolute;top:146px;font:700 150px/1 Osw;color:var(--blue);white-space:nowrap}
+h1 b{color:var(--gold);margin-left:18px}
+.card{position:absolute;top:356px;left:0;right:0;background:#fff;border-radius:26px;padding:48px 30px 44px;
+ box-shadow:0 22px 50px rgba(20,60,90,.12),0 3px 10px rgba(20,60,90,.06)}
+.g{display:grid;grid-template-columns:minmax(0,1fr) 180px minmax(0,1fr);align-items:center;row-gap:26px}
+.g img{height:200px;justify-self:center}
+.vs{font:700 76px/1 Osw;color:var(--gold);text-align:center}
+.nm{font:700 32px/1 Osw;color:var(--blue);text-align:center;white-space:nowrap;justify-self:center;letter-spacing:.01em}
+.rows{position:absolute;top:790px;left:0;right:0;display:grid;grid-template-columns:max-content 1fr;column-gap:36px;row-gap:28px}
+.l{font:700 19px Mont;letter-spacing:.32em;color:var(--gold);padding-top:10px}
+.v{font:700 31px/1.15 Mont;color:var(--blue)}
+.v small{display:block;font:500 22px/1.3 Mont;color:var(--muted);margin-top:5px}
+</style></head><body><div class="c">
+<div class="kick">АНОНС МАТЧА</div>
+<h1>2<b>ТУР</b></h1>
+<div class="card"><div class="g">
+ <img src="crest_l5.png"><div class="vs">VS</div><img src="crest_kondrovo.png">
+ <span class="nm">Л5 КАЛУГА</span><span></span><span class="nm">КОНДРОВО</span>
+</div></div>
+<div class="rows">
+ <div class="l">ТУРНИР</div><div class="v">Отбор ЧКО — ОС 1<small>Пенальти.РФ · 2 тур</small></div>
+ <div class="l">КОГДА</div><div class="v">21 ноября<small>Суббота, 12:00</small></div>
+ <div class="l">МЕСТО</div><div class="v">ФОК «Фаворит»<small>г. Козельск</small></div>
+</div>
+</div></body></html>
