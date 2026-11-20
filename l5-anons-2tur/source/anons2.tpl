@@ -1,10 +1,11 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
 __FF__
+@font-face{font-family:Osw;font-weight:600;src:url(oswald-latin-600-normal.woff2);unicode-range:U+0000-00FF}
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1350px;overflow:hidden}
 body{background:url(template.png) 0 0/1080px 1350px no-repeat;font-family:Mont;position:relative}
-.num{position:absolute;left:__NX__px;top:__NY__px;font:700 __NS__px/1 Osw;color:transparent;background:url(noise.png),linear-gradient(90deg,#066e93 18%,#03526e 82%);-webkit-background-clip:text;background-clip:text}
-.tur{position:absolute;left:__TX__px;top:__TY__px;font:700 __TS__px/1 Osw;color:transparent;background:url(noise.png),linear-gradient(90deg,#d49c5b 0%,#e1aa6c 100%);-webkit-background-clip:text;background-clip:text}
+.num{padding:0 4px 60px 0;position:absolute;left:__NX__px;top:__NY__px;font:600 __NS__px/1 Osw;color:transparent;background:url(noise.png),linear-gradient(90deg,#066e93 18%,#03526e 82%);-webkit-background-clip:text;background-clip:text}
+.tur{padding:0 4px 60px 0;position:absolute;left:__TX__px;top:__TY__px;font:600 __TS__px/1 Osw;color:transparent;background:url(noise.png),linear-gradient(90deg,#d49c5b 0%,#e1aa6c 100%);-webkit-background-clip:text;background-clip:text}
 .card{position:absolute;left:262px;top:440px;width:758px;height:380px;border-radius:30px;background:rgba(252,253,253,.6);
  box-shadow:0 18px 40px rgba(20,60,90,.06),0 2px 6px rgba(20,60,90,.04)}
 .cr{position:absolute}
